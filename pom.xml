@@ -25,11 +25,6 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.5.2</version>
             </plugin>
-        </plugins>
-    </build>
-
-    <build>
-        <plugins>
 
             <plugin>
                 <groupId>org.jacoco</groupId>
@@ -51,7 +46,7 @@
                     </execution>
                 </executions>
             </plugin>
-
         </plugins>
     </build>
+
 </project>
