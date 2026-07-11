@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    tools {
+        maven 'MARVEN-3.9.16'
+    }
+
     stages {
 
         stage('Build') {
@@ -16,3 +20,4 @@ pipeline {
         }
     }
 }
+`
