@@ -9,6 +9,7 @@
     <artifactId>jenkins-demo</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <dependencies>
         <dependency>
@@ -16,6 +17,13 @@
             <artifactId>junit-jupiter</artifactId>
             <version>5.12.2</version>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>4.0.1</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
